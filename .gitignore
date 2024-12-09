@@ -1,0 +1,86 @@
+# Ignore Python cache files and folders
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~*
+
+# Ignore data files
+*.csv
+*.tsv
+*.parquet
+*.sqlite
+*.db
+*.sav
+*.h5
+*.zip
+
+# Ignore compiled code
+*.so
+*.dll
+*.out
+*.o
+*.a
+
+# Ignore environment files
+.env
+.env.local
+
+# Ignore package management files (specific cases)
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+
+# Ignore Jupyter Notebook outputs (optional)
+*.nbconvert/
+
+# Ignore other common development files
+.idea/
+.vscode/
+*.code-workspace
+
+# Ignore Git metadata for submodules
+.gitmodules
+
+# Ignore macOS and Windows files
+.DS_Store
+Thumbs.db
+
+# Ignore build/ and dist/ folders (e.g., for Python packaging)
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore specific project settings
+*.config
+*.settings
+
+# Ignore analytics or crash reports
+*.pid
+*.tgz
+
+# Ignore temporary or testing files
+.coverage
+*.coverage.*
+
+# Ignore compiled Python wheels
+*.whl
